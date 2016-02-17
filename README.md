@@ -10,7 +10,7 @@ Two, space separated, integers denoting the maximum contiguous and non-contiguou
 
 ##Input
 
-```python
+```sql
 
 2 
 4 
