@@ -1,0 +1,27 @@
+total = input()
+
+def non_cont (ar):
+    max_seq =0
+    j=0
+    for i in ar:
+        if (i>=0):
+            max_seq = i+max_seq
+            j = j+1
+    if (j==0):
+        return max(ar)
+    return max_seq
+
+def max_subarray(ar):
+    max_ending_here = max_so_far = ar[0]
+    for x in ar[1:]:
+        max_ending_here = max(x, max_ending_here + x)
+        max_so_far = max(max_so_far, max_ending_here)
+    return max_so_far
+
+for i in xrange(total):
+    m = input()
+    ar = [int(i) for i in raw_input().strip().split()]
+    a = max_subarray(ar)
+    b = non_cont(ar)
+    print a, b
+
