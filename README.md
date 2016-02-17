@@ -10,15 +10,19 @@ Two, space separated, integers denoting the maximum contiguous and non-contiguou
 
 ##Input
 
-```bash
+```python
+
 2 
 4 
 1 2 3 4
 6
 2 -1 2 3 4 -5
+
 ```
 ## Output
-```bash
+```python
+
 10 10
 10 11
+
 ```
