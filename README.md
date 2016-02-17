@@ -10,7 +10,7 @@ Two, space separated, integers denoting the maximum contiguous and non-contiguou
 
 ##Input
 
-```python
+```bash
 2 
 4 
 1 2 3 4
@@ -18,7 +18,7 @@ Two, space separated, integers denoting the maximum contiguous and non-contiguou
 2 -1 2 3 4 -5
 ```
 ## Output
-```python
+```bash
 10 10
 10 11
 ```
